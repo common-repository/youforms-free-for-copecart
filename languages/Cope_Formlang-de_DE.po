@@ -1,0 +1,556 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: youforms-1.0\n"
+"POT-Creation-Date: 2021-09-29 14:20+0200\n"
+"PO-Revision-Date: 2021-09-29 14:21+0200\n"
+"Last-Translator: \n"
+"Language-Team: info@itservicejung.de\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;:;:\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Flags-xgettext: --add-comments\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+
+#: includes/backend/Dashboard.php:38
+msgid ""
+"👋 <a target=\"blank_\" href=\"https://api.itservicejung.de/feedback?plugin="
+msgstr ""
+
+#. static text
+#: includes/helpers/Meta_Post_Editor.php:126
+msgid "First name"
+msgstr "Vorname"
+
+#: includes/helpers/Meta_Post_Editor.php:127
+msgid "Last name"
+msgstr "Nachname"
+
+#: includes/helpers/Meta_Post_Editor.php:128
+msgid "your@example.com"
+msgstr "deine@email.de"
+
+#: includes/helpers/Meta_Post_Editor.php:129
+msgid "Phone"
+msgstr "Telefon"
+
+#: includes/helpers/Meta_Post_Editor.php:130
+msgid "Address"
+msgstr "Adresse"
+
+#: includes/helpers/Meta_Post_Editor.php:131
+msgid "House Nr."
+msgstr "Haus Nr."
+
+#: includes/helpers/Meta_Post_Editor.php:132
+msgid "City"
+msgstr "Stadt"
+
+#: includes/helpers/Meta_Post_Editor.php:133
+msgid "Zip code"
+msgstr "PLZ"
+
+#: includes/helpers/Meta_Post_Editor.php:134
+msgid "Country"
+msgstr "Land"
+
+#: includes/helpers/Meta_Post_Editor.php:137
+#: includes/helpers/Meta_Post_Editor.php:180
+#: includes/helpers/Meta_Post_Editor.php:469
+msgid "Subscribe NOW! to the premium Wordpress Plugin!"
+msgstr "Abonniere jetzt das Premium WordPress Plugin!"
+
+#: includes/helpers/Meta_Post_Editor.php:140
+#: includes/helpers/Meta_Post_Editor.php:496
+msgid "Yes! i will subscribe to the premium version!"
+msgstr "Ja! Ich möchte das Premium Plugin für WordPress abonnieren!"
+
+#: includes/helpers/Meta_Post_Editor.php:150
+#: includes/helpers/Meta_Post_Editor.php:499
+msgid "Continue Checkout"
+msgstr "Weiter zur Kasse"
+
+#: includes/helpers/Meta_Post_Editor.php:153
+#: includes/helpers/Meta_Post_Editor.php:500
+msgid "Checkout will be done by CopeCart!"
+msgstr "Sie werden zur CopeCart Kasse weitergeleitet!"
+
+#: includes/helpers/Meta_Post_Editor.php:183
+#: includes/helpers/Meta_Post_Editor.php:470
+msgid "Create checkouts very easy, with the premium CopCart Form!"
+msgstr "Gestalte eigene Masken und steige dein Umsatz mithilfe von CopeCart!"
+
+#: includes/helpers/Meta_Post_Editor.php:261
+msgid ""
+"Help: Put your product url in here that you get from CopeCart! This link "
+"open's when you click on the checkoutbutton!"
+msgstr ""
+"Hinweis: Platzieren Sie ihr CopeCart link in das Unterstehende Feld ein! "
+"Dieser Link wird beim drücken auf die Schaltfläche \"Weiter zur Kasse\" "
+"aufgerufen!"
+
+#: includes/helpers/Meta_Post_Editor.php:262
+msgid "Paste your CopeCart product url here!"
+msgstr "Platzieren Sie hier ihre CopeCart Produkturl ohne Parameter ein!"
+
+#. DEBUG
+#. var_dump(get_post_meta( get_the_ID(), 'copecarturl', true ));
+#. var_dump(get_post_meta( get_the_ID(), ''));
+#. echo get_post_type( get_the_ID() );
+#: includes/helpers/Meta_Post_Editor.php:278
+msgid "Button template"
+msgstr "Schaltfläche"
+
+#: includes/helpers/Meta_Post_Editor.php:279
+msgid "Help: This button open's the Modal template below as a popup!"
+msgstr ""
+"Hinweis: Die Schaltfläche öffnet das Modale Fenster als Popup! Wenn Sie das "
+"nicht möchten deaktivieren Sie diese Komponente auf der rechten Seite!"
+
+#. Get Modal und Script
+#: includes/helpers/Meta_Post_Editor.php:302
+#: includes/helpers/Meta_Post_Editor.php:350
+msgid "Modal template"
+msgstr "Modales Fenster"
+
+#: includes/helpers/Meta_Post_Editor.php:383
+msgid "Hide button template"
+msgstr "Verstecke die Schaltfläche"
+
+#. 'Cope_Form_settings',
+#: includes/helpers/Meta_Post_Editor.php:397
+msgid "Visible/hide components"
+msgstr "Aktiviere/Deaktiviere Komponenten"
+
+#. 'Cope_Form_settings',
+#: includes/helpers/Meta_Post_Editor.php:407
+msgid "Change button template text"
+msgstr "Ändern der Texte in der Schaltfläche"
+
+#. 'Cope_Form_settings',
+#: includes/helpers/Meta_Post_Editor.php:418
+msgid "Change button template color"
+msgstr "Ändern der Farben in der Schaltfläche"
+
+#. 'Cope_Form_settings',
+#: includes/helpers/Meta_Post_Editor.php:428
+msgid "Change modal template text"
+msgstr "Ändern der Texte im modalem Fenster"
+
+#: includes/helpers/Meta_Post_Editor.php:446
+#: includes/helpers/Meta_Post_Editor.php:563
+msgid "Button background:"
+msgstr "Hintergrundfarbe der Formularschaltfläche:"
+
+#: includes/helpers/Meta_Post_Editor.php:456
+#: includes/helpers/Meta_Post_Editor.php:573
+msgid "Button font-color:"
+msgstr "Schriftfarbe der Schaltfläche:"
+
+#: includes/helpers/Meta_Post_Editor.php:476
+#: includes/helpers/Meta_Post_Editor.php:547
+msgid "Button text:"
+msgstr "Text der Formularschaltfläche:"
+
+#: includes/helpers/Meta_Post_Editor.php:477
+msgid "Your Button-text.."
+msgstr "Ihr Schaltflächentext.."
+
+#: includes/helpers/Meta_Post_Editor.php:484
+msgid "Button subtext:"
+msgstr "Subtext der Schaltfläche:"
+
+#: includes/helpers/Meta_Post_Editor.php:485
+msgid "Your Button-subtext..."
+msgstr "Ihr Schaltflächensubtext..."
+
+#: includes/helpers/Meta_Post_Editor.php:495
+msgid "Billing address"
+msgstr "Kontaktdaten"
+
+#: includes/helpers/Meta_Post_Editor.php:510
+msgid "Header text:"
+msgstr "Formularkopftext:"
+
+#: includes/helpers/Meta_Post_Editor.php:511
+#: includes/helpers/Meta_Post_Editor.php:548
+msgid "Your Headertext.."
+msgstr "Ihr Formularkopftext.."
+
+#: includes/helpers/Meta_Post_Editor.php:518
+msgid "Header subtext:"
+msgstr "Formularkopfsubtext:"
+
+#: includes/helpers/Meta_Post_Editor.php:519
+#: includes/helpers/Meta_Post_Editor.php:556
+msgid "Your Headersubtext..."
+msgstr "Ihr Schaltflächensubtext..."
+
+#: includes/helpers/Meta_Post_Editor.php:526
+msgid "Header background:"
+msgstr "Hintergrundfarbe vom Formularkopf :"
+
+#: includes/helpers/Meta_Post_Editor.php:536
+msgid "Header font-color:"
+msgstr "Schriftfarbe vom Formularkopf:"
+
+#: includes/helpers/Meta_Post_Editor.php:555
+msgid "Button subtext"
+msgstr "Subtext von der Formularschaltfläche"
+
+#: includes/helpers/Meta_Post_Editor.php:634
+msgid "Enable Email"
+msgstr "Aktiviere Email"
+
+#: includes/helpers/Meta_Post_Editor.php:640
+msgid "Before cart expiry date"
+msgstr "Vor dem Ablaufdatum des Warenkorbs"
+
+#: includes/helpers/Meta_Post_Editor.php:648
+msgid "Days"
+msgstr "Tage"
+
+#: includes/helpers/Meta_Post_Editor.php:649
+msgid "Hours"
+msgstr "Stunden"
+
+#: includes/helpers/Meta_Post_Editor.php:650
+msgid "Minutes"
+msgstr "Minuten"
+
+#: includes/helpers/Meta_Post_Editor.php:651
+msgid "Seconds"
+msgstr "Sekunden"
+
+#: includes/helpers/Plugin_Info.php:29
+msgid "youForms Free for CopeCart"
+msgstr "youForms Free für CopeCart Benutzer"
+
+#: includes/helpers/Plugin_Info.php:30
+msgid "youforms"
+msgstr "youforms"
+
+#: includes/helpers/Plugin_Info.php:31 includes/helpers/Plugin_Info.php:32
+msgid "youForms free"
+msgstr "youForms free"
+
+#: includes/helpers/Plugin_Info.php:33
+msgid "youForms Archives"
+msgstr "youForms Archiv"
+
+#: includes/helpers/Plugin_Info.php:34
+msgid "youForms Attributes"
+msgstr "youForms Attribute"
+
+#: includes/helpers/Plugin_Info.php:35
+msgid "Parent sales:"
+msgstr "Übergeordnete Verkaufsformulare:"
+
+#: includes/helpers/Plugin_Info.php:36
+msgid "Your templates"
+msgstr "Ihre Vorlagen"
+
+#: includes/helpers/Plugin_Info.php:37
+msgid "Add new sales form"
+msgstr "Erstelle neues Verkaufsformular"
+
+#: includes/helpers/Plugin_Info.php:38
+msgid "Add new"
+msgstr "Erstellen"
+
+#: includes/helpers/Plugin_Info.php:39
+msgid "New form"
+msgstr "Neues Formular"
+
+#: includes/helpers/Plugin_Info.php:40
+msgid "Edit form"
+msgstr "Formular ändern"
+
+#: includes/helpers/Plugin_Info.php:41
+msgid "Update form"
+msgstr "Aktualisiere Formular"
+
+#: includes/helpers/Plugin_Info.php:42 includes/helpers/Plugin_Info.php:43
+msgid "View form"
+msgstr "Formular ansehen"
+
+#: includes/helpers/Plugin_Info.php:44
+msgid "Search form"
+msgstr "Suche Formular"
+
+#: includes/helpers/Plugin_Info.php:45
+msgid "Not found"
+msgstr "Nicht gefunden"
+
+#: includes/helpers/Plugin_Info.php:46
+msgid "Not found in Trash"
+msgstr "Papierkorb ist leer"
+
+#: includes/helpers/Plugin_Info.php:47
+msgid "Featured Image"
+msgstr "Ausgewähltes Bild"
+
+#: includes/helpers/Plugin_Info.php:48
+msgid "Set featured image"
+msgstr "Ausgewähltes Bild setzen"
+
+#: includes/helpers/Plugin_Info.php:49
+msgid "Remove featured image"
+msgstr "Ausgewähltes Bild entfernen"
+
+#: includes/helpers/Plugin_Info.php:50
+msgid "Use as featured image"
+msgstr "Als vorgestellungs Bild verwenden"
+
+#: includes/helpers/Plugin_Info.php:51
+msgid "Insert item"
+msgstr "Item einfügen"
+
+#: includes/helpers/Plugin_Info.php:52
+msgid "Uploaded to this item"
+msgstr "Zu diesem Artikel hochladen"
+
+#: includes/helpers/Plugin_Info.php:53
+msgid "Sales form list"
+msgstr "Verkaufsformular Liste"
+
+#: includes/helpers/Plugin_Info.php:54
+msgid "Form list navigation"
+msgstr "Navigation durch die Formularliste"
+
+#: includes/helpers/Plugin_Info.php:55
+msgid "Filter items list"
+msgstr "Item Liste filtern"
+
+#: includes/helpers/Plugin_Info.php:58 includes/helpers/Plugin_Info.php:59
+msgid "youForms free for CopeCart"
+msgstr "youForms Free für CopeCart Benutzer"
+
+#: youForms.php:81
+msgid "Add new Form"
+msgstr "Erstelle ein neues Formular"
+
+#, fuzzy
+#~| msgid "Subscribe NOW! to the premium Wordpress Plugin!"
+#~ msgid "Subscribe to the premium Wordpress Plugin!"
+#~ msgstr "Abonniere jetzt das Premium WordPress Plugin!"
+
+#, fuzzy
+#~| msgid "Create checkouts very easy, with the premium CopCart Form!"
+#~ msgid "Create checkout very easy, with the premium CopCart Form!"
+#~ msgstr ""
+#~ "Gestalte eigene Masken und steige dein Umsatz mithilfe von CopeCart!"
+
+#, fuzzy
+#~| msgid "Subscribe NOW! to the premium Wordpress Plugin!"
+#~ msgid "Abonniere jetzt das Premium Wordpress Plugin!"
+#~ msgstr "Abonniere jetzt das Premium WordPress Plugin!"
+
+#~ msgid "Configuration"
+#~ msgstr "Konfiguration"
+
+#~ msgid "Statistics"
+#~ msgstr "Statistik"
+
+#~ msgid "Test email was send to: "
+#~ msgstr "Test E-Mail wurde versendet an "
+
+#~ msgid "Error: Test email can't send to"
+#~ msgstr "Fehler: Test Email  konnte nicht versendet werden"
+
+#~ msgid ", please check your input or mail server. "
+#~ msgstr ", bitte überprüfe deine Eingabe oder dein Email Server. "
+
+#~ msgid "Wordpress Plugin Create premium billingform's for CopeCart"
+#~ msgstr ""
+#~ "Wordpress Plugin Gestalte premium Verkaufsmasken für CopeCart Produkte"
+
+#~ msgid "Background:"
+#~ msgstr "Hintergrundfarbe der Formularschaltfläche:"
+
+#~ msgid "Font-color:"
+#~ msgstr "Schriftfarbe der Schaltfläche:"
+
+#~ msgid "Link to background image:"
+#~ msgstr "Link zum Bild für den Hintergrund:"
+
+#~ msgid "Product Backround Image..."
+#~ msgstr "Produktbild für den Hintergrund..."
+
+#~ msgid "Your productname..."
+#~ msgstr "Ihr Produktname..."
+
+#~ msgid "Product price:"
+#~ msgstr "Produktpreis:"
+
+#~ msgid "Your Productprice..."
+#~ msgstr "Ihr Produktpreis..."
+
+#~ msgid "Link to product image:"
+#~ msgstr "Link zum Produktbild:"
+
+#~ msgid "Your ProductIMG..."
+#~ msgstr "Ihr Productbild..."
+
+#~ msgid "Link to product site:"
+#~ msgstr "Link zum Produkt selbst:"
+
+#~ msgid "Your ProductURL..."
+#~ msgstr "Ihr Produkt Link..."
+
+#~ msgid "Hide product view"
+#~ msgstr "Verstecke die Produktansicht"
+
+#~ msgid "Header Email"
+#~ msgstr "Email Kopf"
+
+#~ msgid "Change product view "
+#~ msgstr "Ändern der Produktansicht "
+
+#~ msgid "Subject Email"
+#~ msgstr "Betreff Email"
+
+#~ msgid "Subject"
+#~ msgstr "Betreff"
+
+#~ msgid "Heading"
+#~ msgstr "Kopf"
+
+#~ msgid "Payment picture URL:"
+#~ msgstr "Link zu ihrem Bild mit Zahlungsoptionen:"
+
+#~ msgid "Payment picture url 766x81px.."
+#~ msgstr "Link zum Bild ihrer Zahlungsoptionen, Bildgröße 766x81px.."
+
+#~ msgid "Small text:"
+#~ msgstr "Kleingedruckter Text:"
+
+#~ msgid "Small text if you want hide some text :D.."
+#~ msgstr "Ihr Kleingedruckter Text.."
+
+#~ msgid "Displays your site logo."
+#~ msgstr "Zeigt ihr Logo an."
+
+#~ msgid "Displays the product list from the customer cart."
+#~ msgstr "Zeigt die Warenproduktliste ihres Kunden an."
+
+#~ msgid "Direct link to customers cart."
+#~ msgstr "Direkter Link zum Kundenwarenkorb."
+
+#~ msgid "Displays the product image."
+#~ msgstr "Zeigt das Produktbild an."
+
+#~ msgid "Displays the product url."
+#~ msgstr "Zeigt die Produkt-URL an."
+
+#~ msgid "Displays the product name."
+#~ msgstr "Zeigt den Produktnamen an."
+
+#~ msgid "Displays the product price."
+#~ msgstr "Zeigt den Produktpreis an."
+
+#~ msgid "youForms Premium"
+#~ msgstr "youForms Premium Attribute"
+
+#~ msgid "Email Templates"
+#~ msgstr "Ihre Vorlagen"
+
+#~ msgid "Sales forms"
+#~ msgstr "Verkaufsformulare"
+
+#~ msgid "example <cart@reminder.com"
+#~ msgstr "Beispiel <warenkorb@erinnerung.com"
+
+#~ msgid "Title"
+#~ msgstr "Titel"
+
+#~ msgid "Scheduled period"
+#~ msgstr "Geplante Sendezeit"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "Date"
+#~ msgstr "Datum"
+
+#~ msgid "Everyminute"
+#~ msgstr "Jede Minute"
+
+#~ msgid "Hourly"
+#~ msgstr "Stündlich"
+
+#~ msgid "Daily"
+#~ msgstr "Täglich"
+
+#~ msgid "On"
+#~ msgstr "An"
+
+#~ msgid "Off"
+#~ msgstr "Aus"
+
+#~ msgid "Email Settings"
+#~ msgstr "Email Eigenschaften"
+
+#~ msgid "Buy Premium Templates"
+#~ msgstr "Premium Vorlagen kaufen"
+
+#~ msgid "Template Tags"
+#~ msgstr "Vorlagen Schlüsselwörter"
+
+#~ msgid "days"
+#~ msgstr "Tage"
+
+#~ msgid "nextsending"
+#~ msgstr "Nächstes Versenden"
+
+#~ msgid "Send period"
+#~ msgstr "Sendezeitraum"
+
+#~ msgid "Every Day"
+#~ msgstr "Jeden Tag"
+
+#~ msgid "Every Hour"
+#~ msgstr "Jede Stunde"
+
+#~ msgid "Every Minute"
+#~ msgstr "Jede Minute"
+
+#~ msgid "Test Template"
+#~ msgstr "Test Vorlage"
+
+#~ msgid "Send"
+#~ msgstr "Senden"
+
+#~ msgid "Period start:"
+#~ msgstr "Sendezeitraum startet in:"
+
+#~ msgid "Cart Reminder"
+#~ msgstr "Warenkorb Erinnerung"
+
+#~ msgid "New Email"
+#~ msgstr "Neue Email"
+
+#~ msgid "View Emails"
+#~ msgstr "Emails ansehen"
+
+#~ msgid "Cart Reminders"
+#~ msgstr "Cart Reminders"
+
+#~ msgid "Cart Email Reminder for WooCommerce"
+#~ msgstr "Cart Email Reminder für WooCommerce"
+
+#~ msgid "Add New Reminder"
+#~ msgstr "Neue Erinnerung hinzufügen"
+
+#~ msgid ""
+#~ "Cart Reminder for WooCommerce is enabled and stays in standby. It "
+#~ "requires WooCommerce in order to work."
+#~ msgstr ""
+#~ "Cart Reminder für WooCommerce steht im Stand-By Modus. Dieses Plugin "
+#~ "benötigt WooCommerce damit das Plugin aktiv wird."

@@ -1,0 +1,1559 @@
+  #productnamelbl {
+    font-size: 18px;
+    font-family: "Verdana"
+  }
+
+  #productpricelbl {
+    font-size: 15px;
+    font-family: "Verdana"
+  }
+
+  .bigbuttontxt {
+
+    padding-top: 10px;
+  }
+
+  .border-danger {
+    border-color: #dc3545 !important;
+    border-width: 2px !important;
+  }
+
+  .product_info {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    -webkit-box-shadow: inset 0px 2px 26px -16px rgba(0, 0, 0, 0.77);
+    -moz-box-shadow: inset 0px 2px 26px -16px rgba(0, 0, 0, 0.77);
+    box-shadow: inset 0px 2px 26px -16px rgba(0, 0, 0, 0.77);
+
+  }
+
+  .product_info h3 {
+    color: white;
+  }
+
+  #producturllbl {
+    text-decoration: none;
+    color: white;
+    width: 100%;
+
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    top: 180px;
+    z-index: 1;
+    transition: top 1s ease-in-out;
+    color: white;
+
+  }
+
+  #producturllbl:hover {
+    top: 15px;
+  }
+
+  #producturllbl a {
+    text-decoration: none;
+  }
+
+  #producturllbl a:hover {
+    text-decoration: none;
+  }
+
+  #producturllbl a:active {
+    text-decoration: none;
+  }
+
+  #producturllbl a:visited {
+    text-decoration: none;
+  }
+
+  .product_info .product_img {
+    width: 50%;
+    padding-top: 10px;
+    margin: auto;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+
+  /* body.modal-open> :not(.modal) {
+      -webkit-filter: blur(1px);
+      -moz-filter: blur(1px);
+      -o-filter: blur(1px);
+      -ms-filter: blur(1px);
+      filter: blur(1px);
+    } */
+
+  .modal {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .modal-backdrop {
+    position: relative;
+    cursor: pointer;
+  }
+
+  /*! CSS Used from: http://localhost/wordpress/wp-content/themes/twentyseventeen/style.css?ver=20190507 ; media=all */
+  @media all {
+    a {
+      background-color: transparent;
+      -webkit-text-decoration-skip: objects;
+    }
+
+    a:active,
+    a:hover {
+      outline-width: 0;
+    }
+
+    small {
+      font-size: 80%;
+    }
+
+    img {
+      border-style: none;
+    }
+
+    svg:not(:root) {
+      overflow: hidden;
+    }
+
+    input,
+    select {
+      font-family: sans-serif;
+      font-size: 100%;
+      line-height: 1.15;
+      margin: 0;
+    }
+
+    input {
+      overflow: visible;
+    }
+
+    select {
+      text-transform: none;
+    }
+
+    input,
+    select {
+      color: #333;
+      font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+      font-size: 15px;
+      font-size: 0.9375rem;
+      font-weight: 400;
+      line-height: 1.66;
+    }
+
+    :focus {
+      outline: none;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+      color: #666;
+      background: #fff;
+      background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+      border: 1px solid #bbb;
+      -webkit-border-radius: 3px;
+      border-radius: 3px;
+      display: block;
+      padding: 0.7em;
+      width: 100%;
+    }
+
+    input[type="text"]:focus,
+    input[type="email"]:focus {
+      color: #222;
+      border-color: #333;
+    }
+
+    select {
+      border: 1px solid #bbb;
+      -webkit-border-radius: 3px;
+      border-radius: 3px;
+      height: 3em;
+      max-width: 100%;
+    }
+
+    ::-webkit-input-placeholder {
+      color: #333;
+      font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+    }
+
+    :-moz-placeholder {
+      color: #333;
+      font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+    }
+
+    ::-moz-placeholder {
+      color: #333;
+      font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+      opacity: 1;
+    }
+
+    :-ms-input-placeholder {
+      color: #333;
+      font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+    }
+
+    a {
+      color: #222;
+      text-decoration: none;
+    }
+
+    a:focus {
+      outline: thin dotted;
+    }
+
+    a:hover,
+    a:active {
+      color: #000;
+      outline: 0;
+    }
+
+    .entry-content a {
+      -webkit-box-shadow: inset 0 -1px 0 rgba(15, 15, 15, 1);
+      box-shadow: inset 0 -1px 0 rgba(15, 15, 15, 1);
+      -webkit-transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
+      transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
+      transition: color 80ms ease-in, box-shadow 130ms ease-in-out;
+      transition: color 80ms ease-in, box-shadow 130ms ease-in-out, -webkit-box-shadow 130ms ease-in-out;
+    }
+
+    .entry-content a:focus,
+    .entry-content a:hover {
+      color: #000;
+      -webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, 0), 0 3px 0 rgba(0, 0, 0, 1);
+      box-shadow: inset 0 0 0 rgba(0, 0, 0, 0), 0 3px 0 rgba(0, 0, 0, 1);
+    }
+
+    *,
+    *:before,
+    *:after {
+      -webkit-box-sizing: inherit;
+      -moz-box-sizing: inherit;
+      box-sizing: inherit;
+    }
+
+    img {
+      height: auto;
+      max-width: 100%;
+    }
+
+    @media screen and (min-width: 30em) {
+
+      input,
+      select {
+        font-size: 18px;
+        font-size: 1.125rem;
+      }
+    }
+
+    @media screen and (min-width: 48em) {
+
+      input,
+      select {
+        font-size: 16px;
+        font-size: 1rem;
+        line-height: 1.5;
+      }
+    }
+
+    @media print {
+
+      input,
+      select {
+        display: none !important;
+      }
+
+      a {
+        color: #222 !important;
+      }
+    }
+  }
+
+  /*! CSS Used from: https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css */
+  *,
+  ::after,
+  ::before {
+    box-sizing: border-box;
+  }
+
+  [tabindex="-1"]:focus:not(:focus-visible) {
+    outline: 0 !important;
+  }
+
+  small {
+    font-size: 80%;
+  }
+
+  a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+  }
+
+  a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+
+  a:not([href]) {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  a:not([href]):hover {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  img {
+    vertical-align: middle;
+    border-style: none;
+  }
+
+  svg {
+    overflow: hidden;
+    vertical-align: middle;
+  }
+
+  input,
+  select {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+
+  input {
+    overflow: visible;
+  }
+
+  select {
+    text-transform: none;
+  }
+
+  select {
+    word-wrap: normal;
+  }
+
+  small {
+    font-size: 80%;
+    font-weight: 400;
+  }
+
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .no-gutters>[class*=col-] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .col-md-12,
+  .col-md-3,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-9 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  @media (min-width:768px) {
+    .col-md-3 {
+      -ms-flex: 0 0 25%;
+      flex: 0 0 25%;
+      max-width: 25%;
+    }
+
+    .col-md-5 {
+      -ms-flex: 0 0 41.666667%;
+      flex: 0 0 41.666667%;
+      max-width: 41.666667%;
+    }
+
+    .col-md-6 {
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+
+    .col-md-7 {
+      -ms-flex: 0 0 58.333333%;
+      flex: 0 0 58.333333%;
+      max-width: 58.333333%;
+    }
+
+    .col-md-9 {
+      -ms-flex: 0 0 75%;
+      flex: 0 0 75%;
+      max-width: 75%;
+    }
+
+    .col-md-12 {
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+
+  .form-control-youforms{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  }
+
+  @media (prefers-reduced-motion:reduce) {
+    .form-control-youforms{
+      transition: none;
+    }
+  }
+
+  .form-control-youforms::-ms-expand {
+    background-color: transparent;
+    border: 0;
+  }
+
+  .form-control-youforms:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #495057;
+  }
+
+  .form-control-youforms:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25);
+  }
+
+  .form-control-youforms::-webkit-input-placeholder {
+    color: #6c757d;
+    opacity: 1;
+  }
+
+  .form-control-youforms::-moz-placeholder {
+    color: #6c757d;
+    opacity: 1;
+  }
+
+  .form-control-youforms:-ms-input-placeholder {
+    color: #6c757d;
+    opacity: 1;
+  }
+
+  .form-control-youforms::-ms-input-placeholder {
+    color: #6c757d;
+    opacity: 1;
+  }
+
+  .form-control-youforms::placeholder {
+    color: #6c757d;
+    opacity: 1;
+  }
+
+  .form-control-youforms:disabled {
+    background-color: #e9ecef;
+    opacity: 1;
+  }
+
+  .form-group {
+    margin-bottom: 1rem;
+  }
+
+  .fade {
+    transition: opacity .15s linear;
+  }
+
+  @media (prefers-reduced-motion:reduce) {
+    .fade {
+      transition: none;
+    }
+  }
+
+  .modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    outline: 0;
+  }
+
+  .modal-dialog {
+    position: relative;
+    width: auto;
+    margin: .5rem;
+    pointer-events: none;
+  }
+
+  .modal.fade .modal-dialog {
+    transition: -webkit-transform .3s ease-out;
+    transition: transform .3s ease-out;
+    transition: transform .3s ease-out, -webkit-transform .3s ease-out;
+    -webkit-transform: translate(0, -50px);
+    transform: translate(0, -50px);
+  }
+
+  @media (prefers-reduced-motion:reduce) {
+    .modal.fade .modal-dialog {
+      transition: none;
+    }
+  }
+
+  .modal.show .modal-dialog {
+    -webkit-transform: none;
+    transform: none;
+  }
+
+  .modal-dialog-centered {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: calc(100% - 1rem);
+  }
+
+  .modal-dialog-centered::before {
+    display: block;
+    height: calc(100vh - 1rem);
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
+    content: "";
+  }
+
+  .modal-content {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: .3rem;
+    outline: 0;
+  }
+
+  .modal-body {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1rem;
+  }
+
+  @media (min-width:576px) {
+    .modal-dialog {
+      max-width: 500px;
+      margin: 1.75rem auto;
+    }
+
+    .modal-dialog-centered {
+      min-height: calc(100% - 3.5rem);
+    }
+
+    .modal-dialog-centered::before {
+      height: calc(100vh - 3.5rem);
+      height: -webkit-min-content;
+      height: -moz-min-content;
+      height: min-content;
+    }
+  }
+
+  @media (min-width:992px) {
+    .modal-lg {
+      max-width: 800px;
+    }
+  }
+
+  @media print {
+
+    *,
+    ::after,
+    ::before {
+      text-shadow: none !important;
+      box-shadow: none !important;
+    }
+
+    a:not(.btn) {
+      text-decoration: underline;
+    }
+
+    img {
+      page-break-inside: avoid;
+    }
+  }
+
+  /*! CSS Used from: Embedded */
+  @media all {
+    a {
+      background-color: transparent;
+      -webkit-text-decoration-skip: objects;
+    }
+
+    a:active,
+    a:hover {
+      outline-width: 0;
+    }
+
+    small {
+      font-size: 80%;
+    }
+
+    img {
+      border-style: none;
+    }
+
+    svg:not(:root) {
+      overflow: hidden;
+    }
+
+    input,
+    select {
+      font-family: sans-serif;
+      font-size: 100%;
+      line-height: 1.15;
+      margin: 0;
+    }
+
+    input {
+      overflow: visible;
+    }
+
+    select {
+      text-transform: none;
+    }
+
+    input,
+    select {
+      color: #333;
+      font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+      font-size: 15px;
+      font-size: 0.9375rem;
+      font-weight: 400;
+      line-height: 1.66;
+    }
+
+    :focus {
+      outline: none;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+      color: #666;
+      background: #fff;
+      background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+      border: 1px solid #bbb;
+      -webkit-border-radius: 3px;
+      border-radius: 3px;
+      display: block;
+      padding: 0.7em;
+      width: 100%;
+    }
+
+    input[type="text"]:focus,
+    input[type="email"]:focus {
+      color: #222;
+      border-color: #333;
+    }
+
+    select {
+      border: 1px solid #bbb;
+      -webkit-border-radius: 3px;
+      border-radius: 3px;
+      height: 3em;
+      max-width: 100%;
+    }
+
+    ::-webkit-input-placeholder {
+      color: #333;
+      font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+    }
+
+    :-moz-placeholder {
+      color: #333;
+      font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+    }
+
+    ::-moz-placeholder {
+      color: #333;
+      font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+      opacity: 1;
+    }
+
+    :-ms-input-placeholder {
+      color: #333;
+      font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+    }
+
+    a {
+      color: #222;
+      text-decoration: none;
+    }
+
+    a:focus {
+      outline: thin dotted;
+    }
+
+    *,
+    *:before,
+    *:after {
+      -webkit-box-sizing: inherit;
+      -moz-box-sizing: inherit;
+      box-sizing: inherit;
+    }
+
+    img {
+      height: auto;
+      max-width: 100%;
+    }
+
+    @media screen and (min-width: 30em) {
+
+      input,
+      select {
+        font-size: 18px;
+        font-size: 1.125rem;
+      }
+    }
+
+    @media screen and (min-width: 48em) {
+
+      input,
+      select {
+        font-size: 16px;
+        font-size: 1rem;
+        line-height: 1.5;
+      }
+    }
+
+    @media print {
+
+      input,
+      select {
+        display: none !important;
+      }
+
+      a {
+        color: #222 !important;
+      }
+    }
+  }
+
+  *,
+  ::after,
+  ::before {
+    box-sizing: border-box;
+  }
+
+  [tabindex="-1"]:focus:not(:focus-visible) {
+    outline: 0 !important;
+  }
+
+  small {
+    font-size: 80%;
+  }
+
+  a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+  }
+
+  a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+
+  a:not([href]) {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  a:not([href]):hover {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  img {
+    vertical-align: middle;
+    border-style: none;
+  }
+
+  svg {
+    overflow: hidden;
+    vertical-align: middle;
+  }
+
+  input,
+  select {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+
+  input {
+    overflow: visible;
+  }
+
+  select {
+    text-transform: none;
+  }
+
+  select {
+    word-wrap: normal;
+  }
+
+  small {
+    font-size: 80%;
+    font-weight: 400;
+  }
+
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .no-gutters>[class*=col-] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .col-md-12,
+  .col-md-3,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-9 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  @media (min-width:768px) {
+    .col-md-3 {
+      -ms-flex: 0 0 25%;
+      flex: 0 0 25%;
+      max-width: 25%;
+    }
+
+    .col-md-5 {
+      -ms-flex: 0 0 41.666667%;
+      flex: 0 0 41.666667%;
+      max-width: 41.666667%;
+    }
+
+    .col-md-6 {
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+
+    .col-md-7 {
+      -ms-flex: 0 0 58.333333%;
+      flex: 0 0 58.333333%;
+      max-width: 58.333333%;
+    }
+
+    .col-md-9 {
+      -ms-flex: 0 0 75%;
+      flex: 0 0 75%;
+      max-width: 75%;
+    }
+
+    .col-md-12 {
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+
+  .form-control-youforms{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  }
+
+  @media (prefers-reduced-motion:reduce) {
+    .form-control-youforms{
+      transition: none;
+    }
+  }
+
+  .form-control-youforms::-ms-expand {
+    background-color: transparent;
+    border: 0;
+  }
+
+  .form-control-youforms:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #495057;
+  }
+
+  .form-control-youforms:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25);
+  }
+
+  .form-control-youforms::-webkit-input-placeholder {
+    color: #6c757d;
+    opacity: 1;
+  }
+
+  .form-control-youforms::-moz-placeholder {
+    color: #6c757d;
+    opacity: 1;
+  }
+
+  .form-control-youforms:-ms-input-placeholder {
+    color: #6c757d;
+    opacity: 1;
+  }
+
+  .form-control-youforms::-ms-input-placeholder {
+    color: #6c757d;
+    opacity: 1;
+  }
+
+  .form-control-youforms::placeholder {
+    color: #6c757d;
+    opacity: 1;
+  }
+
+  .form-control-youforms:disabled {
+    background-color: #e9ecef;
+    opacity: 1;
+  }
+
+  .form-group {
+    margin-bottom: 1rem;
+  }
+
+  .modal-dialog {
+    position: relative;
+    width: auto;
+    margin: .5rem;
+    pointer-events: none;
+  }
+
+  .modal-dialog-centered {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: calc(100% - 1rem);
+  }
+
+  .modal-dialog-centered::before {
+    display: block;
+    height: calc(100vh - 1rem);
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
+    content: "";
+  }
+
+  .modal-content {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: .3rem;
+    outline: 0;
+  }
+
+  .modal-body {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1rem;
+  }
+
+  @media (min-width:576px) {
+    .modal-dialog {
+      max-width: 500px;
+      margin: 1.75rem auto;
+    }
+
+    .modal-dialog-centered {
+      min-height: calc(100% - 3.5rem);
+    }
+
+    .modal-dialog-centered::before {
+      height: calc(100vh - 3.5rem);
+      height: -webkit-min-content;
+      height: -moz-min-content;
+      height: min-content;
+    }
+  }
+
+  @media (min-width:992px) {
+    .modal-lg {
+      max-width: 800px;
+    }
+  }
+
+  @media print {
+
+    *,
+    ::after,
+    ::before {
+      text-shadow: none !important;
+      box-shadow: none !important;
+    }
+
+    a:not(.btn) {
+      text-decoration: underline;
+    }
+
+    img {
+      page-break-inside: avoid;
+    }
+  }
+
+  .inputfields {
+    background: #f8f8f8;
+  }
+
+  .elButton {
+    color: #FFF;
+    font-weight: bold;
+    display: inline-block;
+    -ms-transform: all .2s ease-in-out;
+    -webkit-transform: all .2s ease-in-out;
+    transform: all .2s ease-in-out;
+    text-align: center !important;
+    text-decoration: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+
+  .elButtonheader {
+    color: #FFF;
+    /* font-weight: bold; */
+    display: inline-block;
+    -ms-transform: all .2s ease-in-out;
+    -webkit-transform: all .2s ease-in-out;
+    transform: all .2s ease-in-out;
+    text-align: center !important;
+    text-decoration: none !important;
+    /* margin-bottom: 10px; */
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+
+  .elButtonSize1 {
+    font-size: 18px;
+  }
+
+  .elButtonSize1 .elButtonSub {
+    font-size: 14px;
+  }
+
+  .elButtonColor1 {
+    background-color: #0092D5;
+  }
+
+  .elButtonColor1:hover {
+    background-color: #0c69a8;
+  }
+
+  .elButtonPadding2 {
+    padding: 9px 25px;
+  }
+
+  .elBtnVP_10 {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+
+  .elButtonCorner3 {
+    border-radius: 3px;
+  }
+
+  .elBTN_b_none {
+    border: none;
+  }
+
+  .elButtonShadowFlatHighlight {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .elBtnHP_40 {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+
+  .mfs_20 {
+    font-size: 20px !important;
+  }
+
+  .elButtonSub {
+    display: block;
+    opacity: 0.7;
+    font-weight: normal;
+  }
+
+  .inputborderRadius {
+    border-radius: 9px !important;
+  }
+
+  .inputfields {
+    padding-left: 10px;
+  }
+
+  .elButtonMain {
+    font-size: 22px;
+  }
+
+  .css-bggradient {
+    background: linear-gradient(270deg, #2b7260, #1bb991, #8e1bb9);
+    background-size: 600% 600%;
+    -webkit-animation: AnimationName 13s ease infinite;
+    -moz-animation: AnimationName 13s ease infinite;
+    animation: AnimationName 13s ease infinite;
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 375px) {
+    .bigbuttontxt {
+      font-size: 19px !important;
+    }
+
+    .elButtonSub {
+      font-size: 14px !important;
+    }
+
+    .mobilepad {
+      padding-right: 0px !important;
+    }
+
+    .steptxt {
+      font-size: 16px !important;
+    }
+  }
+
+  @media screen and (min-width: 375px) and (max-width: 414px) {
+    .bigbuttontxt {
+      font-size: 26px !important;
+    }
+
+    .mobilepad {
+      padding-right: 0px !important;
+    }
+
+    .elButtonSub {
+      font-size: 14px !important;
+      padding-top: 8px;
+    }
+  }
+
+  /*! CSS Used keyframes */
+  @-webkit-keyframes AnimationName {
+    0% {
+      background-position: 0% 50%;
+    }
+
+    50% {
+      background-position: 100% 50%;
+    }
+
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  @-moz-keyframes AnimationName {
+    0% {
+      background-position: 0% 50%;
+    }
+
+    50% {
+      background-position: 100% 50%;
+    }
+
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  @keyframes AnimationName {
+    0% {
+      background-position: 0% 50%;
+    }
+
+    50% {
+      background-position: 100% 50%;
+    }
+
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  /*! CSS Used fontfaces */
+  @font-face {
+    font-family: 'Libre Franklin';
+    font-style: italic;
+    font-weight: 300;
+    font-display: fallback;
+    src: local('Libre Franklin Light Italic'), local('LibreFranklin-LightItalic'), url(https://fonts.gstatic.com/s/librefranklin/v4/jizGREVItHgc8qDIbSTKq4XkRiUa454xm1fpjeOg.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  @font-face {
+    font-family: 'Libre Franklin';
+    font-style: italic;
+    font-weight: 300;
+    font-display: fallback;
+    src: local('Libre Franklin Light Italic'), local('LibreFranklin-LightItalic'), url(https://fonts.gstatic.com/s/librefranklin/v4/jizGREVItHgc8qDIbSTKq4XkRiUa454xm1npjQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Libre Franklin';
+    font-style: italic;
+    font-weight: 400;
+    font-display: fallback;
+    src: local('Libre Franklin Italic'), local('LibreFranklin-Italic'), url(https://fonts.gstatic.com/s/librefranklin/v4/jizBREVItHgc8qDIbSTKq4XkRiUa6zsTjmbI.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  @font-face {
+    font-family: 'Libre Franklin';
+    font-style: italic;
+    font-weight: 400;
+    font-display: fallback;
+    src: local('Libre Franklin Italic'), local('LibreFranklin-Italic'), url(https://fonts.gstatic.com/s/librefranklin/v4/jizBREVItHgc8qDIbSTKq4XkRiUa6zUTjg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Libre Franklin';
+    font-style: italic;
+    font-weight: 600;
+    font-display: fallback;
+    src: local('Libre Franklin SemiBold Italic'), local('LibreFranklin-SemiBoldItalic'), url(https://fonts.gstatic.com/s/librefranklin/v4/jizGREVItHgc8qDIbSTKq4XkRiUa4-o3m1fpjeOg.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  @font-face {
+    font-family: 'Libre Franklin';
+    font-style: italic;
+    font-weight: 600;
+    font-display: fallback;
+    src: local('Libre Franklin SemiBold Italic'), local('LibreFranklin-SemiBoldItalic'), url(https://fonts.gstatic.com/s/librefranklin/v4/jizGREVItHgc8qDIbSTKq4XkRiUa4-o3m1npjQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Libre Franklin';
+    font-style: italic;
+    font-weight: 800;
+    font-display: fallback;
+    src: local('Libre Franklin ExtraBold Italic'), local('LibreFranklin-ExtraBoldItalic'), url(https://fonts.gstatic.com/s/librefranklin/v4/jizGREVItHgc8qDIbSTKq4XkRiUa45I1m1fpjeOg.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  @font-face {
+    font-family: 'Libre Franklin';
+    font-style: italic;
+    font-weight: 800;
+    font-display: fallback;
+    src: local('Libre Franklin ExtraBold Italic'), local('LibreFranklin-ExtraBoldItalic'), url(https://fonts.gstatic.com/s/librefranklin/v4/jizGREVItHgc8qDIbSTKq4XkRiUa45I1m1npjQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 300;
+    font-display: fallback;
+    src: local('Libre Franklin Light'), local('LibreFranklin-Light'), url(https://fonts.gstatic.com/s/librefranklin/v4/jizAREVItHgc8qDIbSTKq4XkRi20-SI6q1vxiQ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  @font-face {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 300;
+    font-display: fallback;
+    src: local('Libre Franklin Light'), local('LibreFranklin-Light'), url(https://fonts.gstatic.com/s/librefranklin/v4/jizAREVItHgc8qDIbSTKq4XkRi20-SI0q1s.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+    src: local('Libre Franklin'), local('LibreFranklin-Regular'), url(https://fonts.gstatic.com/s/librefranklin/v4/jizDREVItHgc8qDIbSTKq4XkRiUR2zcLig.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  @font-face {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+    src: local('Libre Franklin'), local('LibreFranklin-Regular'), url(https://fonts.gstatic.com/s/librefranklin/v4/jizDREVItHgc8qDIbSTKq4XkRiUf2zc.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 600;
+    font-display: fallback;
+    src: local('Libre Franklin SemiBold'), local('LibreFranklin-SemiBold'), url(https://fonts.gstatic.com/s/librefranklin/v4/jizAREVItHgc8qDIbSTKq4XkRi3A_yI6q1vxiQ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  @font-face {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 600;
+    font-display: fallback;
+    src: local('Libre Franklin SemiBold'), local('LibreFranklin-SemiBold'), url(https://fonts.gstatic.com/s/librefranklin/v4/jizAREVItHgc8qDIbSTKq4XkRi3A_yI0q1s.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 800;
+    font-display: fallback;
+    src: local('Libre Franklin ExtraBold'), local('LibreFranklin-ExtraBold'), url(https://fonts.gstatic.com/s/librefranklin/v4/jizAREVItHgc8qDIbSTKq4XkRi24_SI6q1vxiQ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  @font-face {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 800;
+    font-display: fallback;
+    src: local('Libre Franklin ExtraBold'), local('LibreFranklin-ExtraBold'), url(https://fonts.gstatic.com/s/librefranklin/v4/jizAREVItHgc8qDIbSTKq4XkRi24_SI0q1s.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Libre Franklin';
+    font-style: italic;
+    font-weight: 300;
+    font-display: fallback;
+    src: local('Libre Franklin Light Italic'), local('LibreFranklin-LightItalic'), url(https://fonts.gstatic.com/s/librefranklin/v4/jizGREVItHgc8qDIbSTKq4XkRiUa454xm1fpjeOg.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  @font-face {
+    font-family: 'Libre Franklin';
+    font-style: italic;
+    font-weight: 300;
+    font-display: fallback;
+    src: local('Libre Franklin Light Italic'), local('LibreFranklin-LightItalic'), url(https://fonts.gstatic.com/s/librefranklin/v4/jizGREVItHgc8qDIbSTKq4XkRiUa454xm1npjQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Libre Franklin';
+    font-style: italic;
+    font-weight: 400;
+    font-display: fallback;
+    src: local('Libre Franklin Italic'), local('LibreFranklin-Italic'), url(https://fonts.gstatic.com/s/librefranklin/v4/jizBREVItHgc8qDIbSTKq4XkRiUa6zsTjmbI.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  @font-face {
+    font-family: 'Libre Franklin';
+    font-style: italic;
+    font-weight: 400;
+    font-display: fallback;
+    src: local('Libre Franklin Italic'), local('LibreFranklin-Italic'), url(https://fonts.gstatic.com/s/librefranklin/v4/jizBREVItHgc8qDIbSTKq4XkRiUa6zUTjg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Libre Franklin';
+    font-style: italic;
+    font-weight: 600;
+    font-display: fallback;
+    src: local('Libre Franklin SemiBold Italic'), local('LibreFranklin-SemiBoldItalic'), url(https://fonts.gstatic.com/s/librefranklin/v4/jizGREVItHgc8qDIbSTKq4XkRiUa4-o3m1fpjeOg.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  @font-face {
+    font-family: 'Libre Franklin';
+    font-style: italic;
+    font-weight: 600;
+    font-display: fallback;
+    src: local('Libre Franklin SemiBold Italic'), local('LibreFranklin-SemiBoldItalic'), url(https://fonts.gstatic.com/s/librefranklin/v4/jizGREVItHgc8qDIbSTKq4XkRiUa4-o3m1npjQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Libre Franklin';
+    font-style: italic;
+    font-weight: 800;
+    font-display: fallback;
+    src: local('Libre Franklin ExtraBold Italic'), local('LibreFranklin-ExtraBoldItalic'), url(https://fonts.gstatic.com/s/librefranklin/v4/jizGREVItHgc8qDIbSTKq4XkRiUa45I1m1fpjeOg.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  @font-face {
+    font-family: 'Libre Franklin';
+    font-style: italic;
+    font-weight: 800;
+    font-display: fallback;
+    src: local('Libre Franklin ExtraBold Italic'), local('LibreFranklin-ExtraBoldItalic'), url(https://fonts.gstatic.com/s/librefranklin/v4/jizGREVItHgc8qDIbSTKq4XkRiUa45I1m1npjQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 300;
+    font-display: fallback;
+    src: local('Libre Franklin Light'), local('LibreFranklin-Light'), url(https://fonts.gstatic.com/s/librefranklin/v4/jizAREVItHgc8qDIbSTKq4XkRi20-SI6q1vxiQ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  @font-face {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 300;
+    font-display: fallback;
+    src: local('Libre Franklin Light'), local('LibreFranklin-Light'), url(https://fonts.gstatic.com/s/librefranklin/v4/jizAREVItHgc8qDIbSTKq4XkRi20-SI0q1s.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+    src: local('Libre Franklin'), local('LibreFranklin-Regular'), url(https://fonts.gstatic.com/s/librefranklin/v4/jizDREVItHgc8qDIbSTKq4XkRiUR2zcLig.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  @font-face {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+    src: local('Libre Franklin'), local('LibreFranklin-Regular'), url(https://fonts.gstatic.com/s/librefranklin/v4/jizDREVItHgc8qDIbSTKq4XkRiUf2zc.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 600;
+    font-display: fallback;
+    src: local('Libre Franklin SemiBold'), local('LibreFranklin-SemiBold'), url(https://fonts.gstatic.com/s/librefranklin/v4/jizAREVItHgc8qDIbSTKq4XkRi3A_yI6q1vxiQ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  @font-face {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 600;
+    font-display: fallback;
+    src: local('Libre Franklin SemiBold'), local('LibreFranklin-SemiBold'), url(https://fonts.gstatic.com/s/librefranklin/v4/jizAREVItHgc8qDIbSTKq4XkRi3A_yI0q1s.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 800;
+    font-display: fallback;
+    src: local('Libre Franklin ExtraBold'), local('LibreFranklin-ExtraBold'), url(https://fonts.gstatic.com/s/librefranklin/v4/jizAREVItHgc8qDIbSTKq4XkRi24_SI6q1vxiQ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  @font-face {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 800;
+    font-display: fallback;
+    src: local('Libre Franklin ExtraBold'), local('LibreFranklin-ExtraBold'), url(https://fonts.gstatic.com/s/librefranklin/v4/jizAREVItHgc8qDIbSTKq4XkRi24_SI0q1s.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
